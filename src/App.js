@@ -8,14 +8,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-   
-      <div className='wrapper'>
-        <header className='header'> <Header /></header>
-        <aside className='aside'><Aside /></aside>
-        <main className='main'><Main/></main>
-        <footer className='footer'><Footer/></footer>
-      </div>
-  
+
+    <div className='wrapper'>
+      <Header />
+      <Aside />
+      <Main />
+      <Footer />
+    </div>
+
   );
 }
 

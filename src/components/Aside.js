@@ -2,7 +2,7 @@ import React from 'react'
 
 function Aside() {
   return (
-    <div><p>Sidebar</p></div>
+    <aside className='aside'><p>Sidebar</p></aside>
   )
 }
 
